@@ -9,7 +9,7 @@ namespace examhari01
     class soal03
     {
 
-        public soal03()
+        public soal03(int n)
         {
             Console.WriteLine("masukan nilai n :");
 
