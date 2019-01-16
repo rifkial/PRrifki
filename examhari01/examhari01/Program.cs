@@ -19,7 +19,7 @@ namespace examhari01
             //}
             //Console.ReadKey();
 
-            soal03 soal02 = new soal03();
+            soal05 soal02 = new soal05();
         }
     }
 
