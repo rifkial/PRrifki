@@ -50,6 +50,7 @@
     <Compile Include="soal05.cs" />
     <Compile Include="soal06.cs" />
     <Compile Include="soal08.cs" />
+    <Compile Include="soal09.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
