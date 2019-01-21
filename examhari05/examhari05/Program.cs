@@ -16,7 +16,8 @@ namespace examhari05
 
             Console.Write("masukan nilai n :");
             int val = int.Parse(Console.ReadLine());
-            soal07 soal06 = new soal07(val);
+            soalposttest soal06 = new soalposttest(val);
+            Console.Write("tekan aku sesuka masnya ajah");
             Console.ReadKey();
         }
     }

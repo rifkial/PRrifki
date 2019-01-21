@@ -7,9 +7,9 @@ using exambase;
 
 namespace examhari05
 {
-    class soal03 : LogicBase
+    class soal05 : LogicBase
     {
-        public soal03(int n)
+        public soal05(int n)
         {
             jmlBaris = (n * n + n) / 2;
             jmlKolom = n * n;
@@ -17,7 +17,7 @@ namespace examhari05
             IsiArray(n);
             FunctionBase.CetakArray(Array2D);
         }
-        
+
 
         private void IsiArray(int n)
         {
@@ -29,14 +29,14 @@ namespace examhari05
 
                 //ending point
                 int endBrs = stBrs + bgn;
-                int endKol = stKol+(bgn*2);
+                int endKol = stKol + (bgn * 2);
                 //int angka = 1;
                 for (int b = stBrs; b <= endBrs; b++)
                 {
                     for (int k = stKol; k <= endKol; k++)
                     {
-                        if (b + k >= stKol + endBrs && k + endBrs <= b+ endKol)
-                        Array2D[b, k] = "#";
+                        if (b + k >= stKol + endBrs && k + endBrs <= b + endKol)
+                            Array2D[b, k] = "#";
                     }
                 }
             }

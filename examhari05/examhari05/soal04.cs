@@ -7,17 +7,19 @@ using exambase;
 
 namespace examhari05
 {
-    class soal03 : LogicBase
+    class soal04: LogicBase
     {
-        public soal03(int n)
+        public soal04(int n)
         {
             jmlBaris = (n * n + n) / 2;
-            jmlKolom = n * n;
+            jmlKolom = (n * n);
             Array2D = new string[jmlBaris, jmlKolom];
             IsiArray(n);
             FunctionBase.CetakArray(Array2D);
+
         }
-        
+
+
 
         private void IsiArray(int n)
         {
@@ -25,18 +27,18 @@ namespace examhari05
             {
                 //starting point
                 int stBrs = (bgn * bgn + bgn) / 2;
-                int stKol = bgn * bgn;
+                int stKol = jmlKolom-1-(bgn*bgn);
 
                 //ending point
                 int endBrs = stBrs + bgn;
-                int endKol = stKol+(bgn*2);
-                //int angka = 1;
+                int endKol = stKol- (bgn*2);
+
                 for (int b = stBrs; b <= endBrs; b++)
                 {
-                    for (int k = stKol; k <= endKol; k++)
+                    for (int k = stKol; k >= endKol; k--)
                     {
-                        if (b + k >= stKol + endBrs && k + endBrs <= b+ endKol)
-                        Array2D[b, k] = "#";
+                        if (b + k >= endKol + endBrs && k - b <= stKol - endBrs)
+                            Array2D[b, k] = "*";
                     }
                 }
             }

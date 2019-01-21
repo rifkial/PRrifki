@@ -47,8 +47,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="soal01.cs" />
     <Compile Include="soal02.cs" />
+    <Compile Include="soal03.cs" />
+    <Compile Include="soal04.cs" />
+    <Compile Include="soal05.cs" />
     <Compile Include="soal06.cs" />
     <Compile Include="soal07.cs" />
+    <Compile Include="soal08.cs" />
+    <Compile Include="soal09.cs" />
+    <Compile Include="soal10.cs" />
+    <Compile Include="soalposttest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
