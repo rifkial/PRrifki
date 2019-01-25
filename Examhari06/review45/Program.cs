@@ -4,19 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace examhari05
+namespace review45
 {
     class Program
     {
         static void Main(string[] args)
         {
-
-            //Console.WriteLine("masukan nilai n");
-            //Console.Readline
-
             Console.Write("masukan nilai n :");
             int val = int.Parse(Console.ReadLine());
-            soal07 soal06 = new soal07(val);
+            rifki soal06 = new rifki(val);
             Console.Write("tekan aku sesuka masnya ajah");
             Console.ReadKey();
         }

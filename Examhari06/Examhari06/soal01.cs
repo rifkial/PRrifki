@@ -5,33 +5,28 @@ using System.Text;
 using System.Threading.Tasks;
 using exambase;
 
-namespace examhari05
+namespace Examhari06
 {
-    class soal05 : LogicBase
+    class soal01:LogicBase
     {
-        public soal05(int n)
+        public soal01(int n)
         {
-            jmlBaris = (n * n + n) / 2;
-            jmlKolom = n * n;
+            jmlBaris = n * n;
+            jmlKolom = (n*2-1)*2;
             Array2D = new string[jmlBaris, jmlKolom];
             IsiArray(n);
             FunctionBase.CetakArray(Array2D);
         }
 
-
         private void IsiArray(int n)
         {
-
             for (int bgn = 0; bgn < n; bgn++)
             {
-                //starting point
-                int stBrs = (bgn * bgn + bgn) / 2;
-                int stKol = bgn * bgn;
+                int stBrs = n * bgn;
+                int stKol = bgn % 2 * (n * 2 - 1);
+                int endBrs = stBrs + (n - 1);
+                int endKol = stKol + 2 * (n - 1);
 
-                //ending point
-                int endBrs = stBrs + bgn;
-                int endKol = stKol + (bgn * 2);
-                //int angka = 1;
                 for (int b = stBrs; b <= endBrs; b++)
                 {
                     for (int k = stKol; k <= endKol; k++)
@@ -39,6 +34,7 @@ namespace examhari05
                         if (b + k >= stKol + endBrs && k + endBrs <= b + endKol)
                             Array2D[b, k] = "#";
                     }
+
                 }
             }
         }
