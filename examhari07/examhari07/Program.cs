@@ -13,7 +13,7 @@ namespace examhari07
 
             Console.Write("masukan nilai n :");
             int val = int.Parse(Console.ReadLine());
-            soal01 soal06 = new soal01(val);
+            soal06 soal06 = new soal06(val);
             Console.Write("tekan aku sesuka masnya ajah");
             Console.ReadKey();
         }
