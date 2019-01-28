@@ -19,7 +19,7 @@ namespace examhari07
             FunctionBase.CetakArray(Array2D);
         }
 
-        private void IsiArray(int n1,int n2,int n3)
+        private void IsiArray(int n1,int n2,int n3) { }
 
     }
 }

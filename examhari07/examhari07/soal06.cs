@@ -20,7 +20,7 @@ namespace examhari07
 
         private void IsiArray(int n)
         {
-            int angka = 1;
+            //int angka = 1;
             int nAngka = (n - 1) * 4;
             for (int bgn = 0; bgn < n; bgn++)
             {

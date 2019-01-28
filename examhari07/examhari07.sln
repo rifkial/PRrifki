@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exambase", "..\exambase\exa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examhari06", "..\Examhari06\Examhari06\Examhari06.csproj", "{ADABE959-E904-4741-BC3F-19563E1851A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PR_05", "..\..\PR_05\PR_05\PR_05.csproj", "{0228FC2E-4275-44B1-8FE3-3702D653DF29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{ADABE959-E904-4741-BC3F-19563E1851A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADABE959-E904-4741-BC3F-19563E1851A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADABE959-E904-4741-BC3F-19563E1851A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0228FC2E-4275-44B1-8FE3-3702D653DF29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0228FC2E-4275-44B1-8FE3-3702D653DF29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0228FC2E-4275-44B1-8FE3-3702D653DF29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0228FC2E-4275-44B1-8FE3-3702D653DF29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

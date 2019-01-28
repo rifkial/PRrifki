@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="postest.cs" />
+    <Compile Include="pr03.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="soal01.cs" />
@@ -51,6 +53,7 @@
     <Compile Include="soal05.cs" />
     <Compile Include="soal06.cs" />
     <Compile Include="soal08.cs" />
+    <Compile Include="soal10.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
